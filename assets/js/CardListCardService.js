@@ -23,7 +23,7 @@ export function generateList(id) {
   }
 
   export function insertCardListCard(CardListCard) {
-    const endpointURL = 'http://localhost:8080/CardListCard';
+    const endpointURL = 'http://44.203.181.82:8080/CardListCard';
     //console.log(CardListCard);
     const requestOptions = {
       method: 'POST',
