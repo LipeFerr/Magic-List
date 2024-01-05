@@ -1,5 +1,5 @@
 export function generateList(id) {
-    const endpointURL = 'http://localhost:8080/CardListCard/infoTxt/'+id;
+    const endpointURL = 'http://44.203.181.82:8080/CardListCard/infoTxt/'+id;
   
     const requestOptions = {
       method: 'GET',
